@@ -2,7 +2,7 @@ package com.knowledge.domain.di
 
 import com.knowledge.domain.usecases.GetJobsUseCases
 import io.reactivex.schedulers.Schedulers
-import org.koin.dsl.module.module
+import org.koin.dsl.module
 
 val useCaseModule = module {
 
